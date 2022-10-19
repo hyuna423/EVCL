@@ -11,6 +11,10 @@ h3{
   color: #fff;
 }
 
+body{
+  background-color: #101015;
+  color: #fff;
+}
 
 @media (min-width:1521px) {
   .container {
