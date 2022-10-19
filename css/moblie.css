@@ -1,12 +1,39 @@
 
 /*데탑*/
 @media screen and (max-width:1440px) {
+  #wallet .wallet_link_btn {
+    width: 60%;
+  }
+  .wallet_txt h5 {
+    font-size: 1.1rem;
+  }
 }
 
 
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+    .wll_contents_wrap {
+      flex-direction: column-reverse;
+    }
+    .wallet_txt {
+      width: 100%;
+      text-align: center;
+    }
+    .wallet_txt h5 {
+      margin-top: 0;
+    }
+    .wallet_phone {
+      padding: 0 10%;
+    }
+    #roadmap .roadmap_wrap .roadmap_box {
+      flex-direction: column;
+    }
+    #roadmap .roadmap_wrap .roadmap_box .rdm_box {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 40px;
+    }
 }
 
 
