@@ -7,12 +7,134 @@
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+
+    /*header*/
+
+    .hd_all h1{
+      width: 8%;
+    }
+
+    .pc_menu{
+      width: 65%;
+    }
+
+
+    /*home*/
+
+    .home_wrap{
+      width: 80%;
+      padding: 15% 0;
+    }
+
+  
+
+    .home_contents button{
+      width: 25%;
+    }
+
+    /*about*/
+
+    #about{
+      padding: 14% 0;
+    }
+
+    .about_contents{
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .about_bg1::after{
+      left: 5.5%;
+      top: 6%;
+      z-index: 2;
+      width: 600px;
+      height: 600px;
+      background-size: contain;
+    }
+
+    .about_bg2::after{
+      right: 5.5%;
+      bottom: 6%;
+      z-index: 2;
+      width: 600px;
+      height: 600px;
+      background-size: contain;
+    }
+
+    .about_bg3::after{
+      width: 1100px;
+      height: 1100px;
+      left: 5%;
+      top: 5%;
+      z-index: 1;
+    }
+
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+
+
+  /*header*/
+
+    .hd_all h1{
+      width: 12%;
+    }
+
+
+    .pc_menu{
+      display: none;
+    }
+
+    .m_menu{
+      display: block;
+      top: 25%;
+    }
+
+
+    /*home*/
+    
+    .home_contents button{
+      width: 32%;
+    }
+
+
+    /*about*/
+
+    #about{
+      padding: 18% 0;
+    }
+
+
+    .about_contents{
+      width: 88%;
+      padding: 15% 0;
+    }
+
+
+    .about_bg1::after{
+      left: 1.6%;
+      top: 5%;
+      width: 500px;
+      height: 500px;
+    }
+
+    .about_bg2::after{
+      right: 1.6%;
+      bottom: 5%;
+      width: 500px;
+      height: 500px;
+    }
+
+    .about_bg3::after{
+      width: 900px;
+      height: 900px;
+      left: 1.5%;
+      top: 15%;
+      z-index: 1;
+    }
 }
 
 
@@ -21,6 +143,70 @@
 
 @media screen and (max-width:767px) {
 
+
+  /*header*/
+
+
+  .hd_all h1{
+    width: 18%;
+    margin-left: -10%;
+  }
+
+
+  /*home*/
+
+  .home_wrap{
+    width: 100%;
+    padding: 20% 3% 28%;
+  }
+
+  .home_contents h2{
+    font-size: 5em;
+  }
+
+  .home_contents p{
+    font-size: 1.08em;
+  }
+
+
+  .home_contents button{
+    width: 36%;
+    padding: 1.8% 0;
+  }
+
+  .home_contents p br{
+    display: none;
+  }
+
+  /*about*/
+  .about_contents{
+    width: 100%;
+    padding: 20% 0;
+  }
+
+  .about_bg1::after{
+    left: 4.5%;
+    top: 4%;
+    width: 500px;
+    height: 500px;
+  }
+
+  .about_bg2::after{
+    right: 4.5%;
+    bottom: 4%;
+    width: 500px;
+    height: 500px;
+  }
+
+  .about_bg3::after{
+    width: 900px;
+    height: 900px;
+    left:-7%;
+    top: 15%;
+    z-index: 1;
+    transform: rotate(-12deg);
+  }
+
 }
 
 
@@ -28,6 +214,75 @@
 
 
 @media screen and (max-width:576px) {
+
+  /*header*/
+
+
+  .hd_all h1{
+    width: 18%;
+    margin-left: 0;
+  }
+
+
+  /*home*/
+
+  .home_wrap{
+    padding: 40% 3% 35%;
+  }
+
+  .home_contents p{
+    margin: 8% 0;
+  }
+
+  .home_contents button{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    padding:0;
+  }
+
+  .home_contents button:last-child{
+    margin-right: auto !important;
+    margin-top: 4%;
+  }
+
+
+  .about_contents{
+    width: 86%;
+    padding: 20% 3%;
+  }
+
+  .about_contents p br{
+    display: none;
+  }
+
+  .about_contents p br.need_br{
+    display: block !important;
+  }
+
+  .about_bg1::after{
+    left: 0%;
+    top: 1%;
+    width: 400px;
+    height: 400px;
+  }
+
+  .about_bg2::after{
+    right: 0%;
+    bottom: 1%;
+    width: 400px;
+    height: 400px;
+  }
+
+  .about_bg3::after{
+    width: 850px;
+    height: 850px;
+    left:-45%;
+    top: 18%;
+    z-index: 1;
+    transform: rotate(-12deg);
+  }
+
 
 }
 
