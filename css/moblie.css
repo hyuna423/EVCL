@@ -45,6 +45,10 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+  #contact .con_area .con_left form input.email,
+  #contact .con_area .con_left form textarea {
+    width: 100%;
+  }
   footer .footer_area .footer_top {
     flex-direction: column;
     align-items: center;
@@ -70,10 +74,6 @@
 
 
 @media screen and (max-width:576px) {
-  #contact .con_area .con_left form input.email,
-  #contact .con_area .con_left form textarea {
-    width: 100%;
-  }
 
 }
 
