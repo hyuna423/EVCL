@@ -755,7 +755,7 @@ footer .footer_area .footer_top .footer_s h4 {
   margin-bottom: 20px;
 }
 
-/* 수정 및 추가 */
+/* 수정 및 추가 모든 컨텐츠의 위치와 크기를 잘 맞춰주고 정렬을 해줍니다 . 그래야 왼쪽 오른쪽 가운데 섹션의 위치가 정확하게 떨어져요 */
 footer .footer_area .footer_top .footer_w{
   width:25%;
 }
