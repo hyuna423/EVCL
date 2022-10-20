@@ -20,6 +20,11 @@
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+    
+    .home_contents{
+      padding: 0 3%;
+    }
+}
 }
 
 
