@@ -1,18 +1,43 @@
 
 /*데탑*/
 @media screen and (max-width:1440px) {
+  #contact .con_area .con_left form input.email,
+  #contact .con_area .con_left form textarea {
+    width: 90%;
+  }
+
 }
 
 
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+    #contact .con_area {
+      flex-direction: column;
+  }
+  #contact .con_area .con_left {
+    width: 90%;
+    margin-bottom: 5%;
+  }
+    #contact .con_area .con_left form input.email,
+    #contact .con_area .con_left form textarea {
+      width: 80%;
+  }
+  #contact .con_area .con_right {
+    width: 90%;
+  }
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+    #contact .con_area .con_left {
+      padding: 0;
+    }
+    #contact .con_area .con_left form input.send {
+      padding: 5px 15px;
+    }
 }
 
 
@@ -20,6 +45,23 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+  footer .footer_area .footer_top {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .footer_area .footer_top .footer_w,
+  footer .footer_area .footer_top .footer_i,
+  footer .footer_area .footer_top .footer_s {
+    margin-bottom: 5%;
+  }
+  footer .footer_area .footer_top .footer_w h4,
+  footer .footer_area .footer_top .footer_i h4,
+  footer .footer_area .footer_top .footer_s h4 {
+    text-align: center;
+  }
+  footer .footer_area .footer_top .footer_i ul li {
+    text-align: center;
+  }
 
 }
 
@@ -28,6 +70,10 @@
 
 
 @media screen and (max-width:576px) {
+  #contact .con_area .con_left form input.email,
+  #contact .con_area .con_left form textarea {
+    width: 100%;
+  }
 
 }
 
