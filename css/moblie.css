@@ -423,17 +423,6 @@
   }
 
 
-  #Coin .coin_wrap h2{
-    margin: 0 auto;
-    text-align: center;
-    width: 100%;
-    font-family: 'Inter', sans-serif;;
-    font-size: 32px;
-    font-weight: 900;
-    font-style: normal;
-    padding-bottom: 10%;
-  }
-
   #Coin .coin_wrap .coin_bottom{
     width: 100%;
     flex-direction: column;
