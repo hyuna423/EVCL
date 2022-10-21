@@ -492,6 +492,7 @@ p.btnText2 {
   text-align: center;
   line-height: 2;
   position: relative;
+  overflow:hidden;
 }
 
 .about_wrap {
